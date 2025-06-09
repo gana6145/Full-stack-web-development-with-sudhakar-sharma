@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout template</title>
+</head>
+<style>
+  body{
+    font-size: 25px;
+  }
+  header,footer{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+  }
+  section{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    margin: 20px;
+    
+
+    
+    
+    
+  }
+  main{
+    text-align: center;
+  }
+  nav div{
+    border: 2px solid #0d0d0d;
+     border-radius: 10px;
+     font: bold;
+  
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(200, 80, 80, 0.523);
+  }
+  nav{
+    margin: 100px;
+  }
+  nav div:hover{
+    color:  red;
+    background: rgb(215, 215, 227);
+  }
+  figure{
+    padding: 10px;
+    border: 2px solid grey;
+    width: max-content;
+    align-items: center;
+  }
+  img{
+    height: fit-content;
+    width: fit-content;
+  }
+</style>
+<body>
+  <header>
+    Amazon Shopping
+
+  </header>
+  <section>
+    <nav>
+      
+      <div>Home</div>
+      <div>About</div>
+      <div>Contact US</div>
+      <div>fashion</div>
+      
+      
+    </nav>
+    <main>
+      <div>
+        <dialog>Any help</dialog>
+        <div>Welcome to online shopping store
+          <figure>
+           <img src="../../Assets/Images/pic2.jpg" alt="opps not load">
+          </figure>
+          <article>
+            705 off on elctronic
+          </article>
+        </div>
+
+      </div>
+    </main>
+    <aside>
+      ads here
+    </aside>
+
+  </section>
+  <footer>
+  copyright&
+  </footer>
+</body>
+</html>
