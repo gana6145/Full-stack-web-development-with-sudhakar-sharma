@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    height: 1000px;
+  }
+  #container{
+  
+  display: grid;
+  grid-template-columns: 1.5fr 10.5fr;
+  
+}
+#leftContainer{
+  margin-left: 10px;
+}
+#rightContainer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+}
+iframe{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  height: 1000px;
+  border: 1px solid grey;
+  
+  
+}
+</style>
+<body>
+  <div id="container">
+    <div>
+      <ol id="leftContainer">
+        <li><a href="./list.html" target="framebody">List</a></li>
+        <li><a href="./InterDocument.html" target="framebody">InterDocument</a></li>
+        <li><a href="./IntraDocument.html" target="framebody">IntraDocument</a></li>
+        <li><a href="./layout.html" target="framebody">Layout</a></li>
+      </ol>
+
+    </div>
+    <div id="rightContainer" >
+    
+      <iframe name="framebody"></iframe>
+     
+    </div>
+  </div>
+</body>
+</html>
