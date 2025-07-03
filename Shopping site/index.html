@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #main{
+    margin: 10px;
+    padding: 10px;
+
+  }
+  .nav,#footer{
+    height: fit-content;
+    background-color: rgb(101, 113, 123);
+    padding: 5px;
+    
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+  }
+  #section{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    height: 1000px;
+    margin: 10px;
+    
+  }
+  #footer{
+    background-color: rgb(101, 113, 123);
+  }
+  .leftPart{
+    border: 1px solid grey;
+    font-size: 45px;
+    border-radius: 8px;
+    
+
+  }
+  ol{
+    margin-left: 10px;
+  }
+  .rightPart{
+    border: 1px solid grey;
+    margin-left: 5px;
+    border-radius: 8px;
+
+  }
+  iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+</style>
+<body>
+  <div id="main">
+    <div class="nav">
+    <h1>Shopping site</h1>
+  </div>
+  <div id="section">
+    <div class="leftPart">
+      <ol>
+        <li><a href="./Mobile.html" target="frameBody">Mobile</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+
+    </div>
+    <div class="rightPart">
+      <iframe name="frameBody">
+
+      </iframe>
+
+    </div>
+  </div>
+  <div id="footer">
+    <h1>&copy; copyright 2025</h1>
+
+  </div>
+  </div>
+  
+</body>
+</html>
