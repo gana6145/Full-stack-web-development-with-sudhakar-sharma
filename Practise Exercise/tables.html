@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table{
+    height: 400px;
+    width: 800px;
+  }
+  body{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #container{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+
+  }
+  #leftContainer{
+  
+  border: 1px solid grey;
+  width: 100%;
+
+  }
+  #rightContainer{
+    margin-left: 10px;
+
+  }
+  td{
+    text-align: center;
+  }
+  form{
+    margin-left: 10px;
+    padding: 10px;
+  }
+  label{
+    display: block;
+    
+  }
+  input{
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+  }
+ 
+  
+</style>
+<body>
+  <div id="container">
+    <div id="leftContainer"  >
+      <form onsubmit="addToTable(event)">
+        <label for="Name">Name:</label>
+        <input type="text" id="name" placeholder="Enter our name">
+        <label for="Surname">Surname:</label>
+        <input type="text" id="surname" placeholder="Enter our Surname">
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter our citynmae">
+        <label for="State">State:</label>
+        <input type="text" id="state" placeholder="Enter our state">
+        <label for="Name">Postalcode:</label>
+        <input type="number" id="postalcode"   placeholder="Enter our Postal code">
+        <br>
+
+        <button type="submit">Add to Table</button>
+      </form>
+      
+
+    </div>
+    <div id="rightContainer">
+    <table width="600" border="1">
+   <thead>
+    
+    <tr>
+    <th rowspan="2">HeadSection</th>
+     <th colspan="2">Name</th>
+     <th colspan="3">Address</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Last name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Postal Code</th>
+    </tr>
+   </thead>
+   <tbody id="table-body">
+    
+   </tbody>
+   <tfoot>
+    
+    <tr>
+      <td >FooterSection</td>
+      <td colspan="2"></td>
+      <td colspan="3">
+        &copy2025 Ganesh Jadhav
+     </td>
+    </tr>
+    
+
+
+   </tfoot>
+
+  </table>
+  </div>
+  </div>
+</body>
+<script>
+  function addToTable(event) {
+    event.preventDefault(); 
+ const name = document.getElementById('name').value;
+    const surname = document.getElementById('surname').value;
+    const city = document.getElementById('city').value;
+    const state = document.getElementById('state').value;
+    const postalCode = document.getElementById('postalcode').value;
+const row = document.createElement('tr');
+    row.innerHTML = `
+      <td></td> <!-- placeholder for rowspan cell -->
+      <td>${name}</td>
+      <td>${surname}</td>
+      <td>${city}</td>
+      <td>${state}</td>
+      <td>${postalCode}</td>
+    `;
+     const tableBody = document.querySelector('tbody');
+    tableBody.appendChild(row);
+    event.target.reset();
+  }
+  
+</script>
+
+
+</html>
