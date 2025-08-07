@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <label for="username">Name:</label>
+    <input type="text" id="username" placeholder="Enter your name" value="Ganesh" readonly disabled>
+    <br>
+    <br>
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" placeholder="Enter your Surname" required>
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your Email" required>
+    <br>
+    <br>
+    <label for="number"  >Mobile Number:</label>
+    <input type="tel" id="number" minlength="10" maxlength="10" pattern="[6-9]{1}[0-9]{9}" required>
+    <br>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" id="password" minlength="8" maxlength="10" required>
+    <br>
+    <br>
+    <label for="date">DOB:</label>
+    <input type="date" required>
+    <br>
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" required>Male
+    <input type="radio" name="gender" required>Female
+    <input type="radio" name="gender" required>Others
+    <br>
+    <br>
+    <label for="course">Courses</label>
+    <select name="" id="course" required>
+      <optgroup>
+        <option>java Full Stack</option>
+        <option>Java</option>
+        <option>Sql</option>
+        <option>React</option>
+      </optgroup>
+      <optgroup>
+        <option> Python Full Stack</option>
+        <option value="">Python</option>
+        <option value="">Pandas</option>
+        <option value="">Mataplotib</option>
+        <option value="">Numpy</option>
+        </optgroup>
+      
+    </select>
+    <br>
+    <br>
+
+    <label for="hobbies">Hobbies</label>
+    <br>
+
+    <input type="checkbox" checked>Coding <br>
+    <input type="checkbox" checked>Dancing <br>
+    <input type="checkbox" checked>Watching <br>
+    <input type="checkbox" checked>Swimming <br><br>
+
+    <label for="address">Address:</label>
+    <textarea name="address" id=""></textarea>
+    <br>
+    <br>
+    <label for="resume">Upload Resume:</label>
+    <input type="file">
+    <br>
+    <br>
+    <input type="submit">
+
+
+       
+
+
+  </form>
+</body>
+</html>
