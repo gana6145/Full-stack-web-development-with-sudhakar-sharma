@@ -1,0 +1,47 @@
+*{
+  background-color: rgb(234, 230, 230);
+}
+#one{
+  height: 20px;
+  width: 100px;
+  background-color: orange;
+
+}
+#two{
+  height: 20px;
+  width: 200px;
+  background-color: rgb(192, 194, 40);
+
+}
+#three{
+  height: 20px;
+  width: 300px;
+  background-color: rgb(91, 193, 36);
+
+}
+#four{
+  height: 20px;
+  width: 400px;
+  background-color: rgb(221, 35, 35);
+
+}
+#five{
+  height: 20px;
+  width: 500px;
+  background-color: rgb(38, 167, 100);
+
+}
+
+
+#six{
+  height: 20px;
+  width: 600px;
+  background-color: rgb(69, 45, 156);
+
+}
+#seven{
+  height: 20px;
+  width: 700px;
+  background-color: rgb(151, 14, 90);
+
+}

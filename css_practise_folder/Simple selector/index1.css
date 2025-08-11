@@ -1,0 +1,26 @@
+*{
+  background-color: aqua;
+}
+div{
+  width: 300px;
+  height: 300px;
+}
+section{
+  height: 100px;
+  width: 100px;
+}
+#one{
+  background: #6a5d5d;
+}
+#two{
+  background-color: antiquewhite;
+}
+#three{
+background-color: red;
+}
+#sec1{
+  background-color: red;
+}
+#sec1{
+  background-color: black;
+}
