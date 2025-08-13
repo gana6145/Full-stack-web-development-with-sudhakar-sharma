@@ -1,0 +1,24 @@
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+#box{
+  width: 30%; 
+  height: 450px;
+  border: 2px solid rgb(205, 202, 202);
+  box-shadow: 0px 0px 5px rgb(225, 226, 224); 
+  margin: 10px;
+  border-radius: 10px 20px 10px 20px;
+  /* topleft topright bottomright bottom left   */
+  padding: 20px;
+  text-align: center;
+}
+/* 
+units
+1)Absolute (px,cm,mm,in etsc) (fixed units )
+2) Relative (%,vh,vw)
+1)% width
+2)vw-view port width
+3)vh-view port height
+ */

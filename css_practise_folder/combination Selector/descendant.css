@@ -1,0 +1,23 @@
+section h1{
+  background-color: rgb(70, 69, 69);
+  color: white;
+  text-align: center;
+}
+article>h1{
+  background-color: aqua;
+}
+article>div>h1{
+  background-color: rgb(245, 248, 248);
+  font-size: medium;
+  font-style: italic;
+  text-align: center;
+}
+article+div>h1{
+  background-color: rgb(236, 235, 235);
+}
+section~article{
+ background-color: blue;
+  padding: 10px;
+ 
+  
+}
