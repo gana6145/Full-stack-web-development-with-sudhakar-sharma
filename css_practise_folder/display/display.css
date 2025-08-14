@@ -1,0 +1,21 @@
+
+.box{
+  width: 100px;
+  height: 200px;
+  border: 2px solid grey;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+/* display inline-block means making blcok level element inline
+inline poperties 
+1)start in same line
+2)dont have height and width
+3)it occcupies content space
+
+block level
+1)start in new line
+2)can give height and width
+3)it occcupies whole line
+
+*/

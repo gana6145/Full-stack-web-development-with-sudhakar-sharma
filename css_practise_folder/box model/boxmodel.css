@@ -1,0 +1,18 @@
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.box{
+  border: 1px solid grey;
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+/* marging-gives 4 sides space move  */

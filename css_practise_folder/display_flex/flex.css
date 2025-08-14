@@ -1,0 +1,38 @@
+/* justify content:-its for horizantally place give it to the parent (display flex is required then only we can give justify_content )
+
+center
+space between
+space around
+space evenly
+ */
+
+ /* 
+ align-items-
+ for the verticle align the give to the parent (display flex is required then only we can give align items )
+ top center bottom
+ align items 
+ center 
+ end
+  */
+
+  #container{
+    display: flex;
+    height: 500px;
+    border: 2px solid grey;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .box{
+    height: 300px;
+    width: 30%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .inner{
+    height: 200px;
+    width: 30%;
+    border: 2px solid rgb(149, 138, 138);
+  }
