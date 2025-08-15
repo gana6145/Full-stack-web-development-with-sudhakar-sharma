@@ -1,0 +1,13 @@
+/* by default flex makes the content inline to make it like column use flex direction - column */
+
+
+#container{
+  height: 100px;
+  width: 100%;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
