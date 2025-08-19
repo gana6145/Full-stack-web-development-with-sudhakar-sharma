@@ -1,0 +1,64 @@
+body{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#parent{
+  width: 80%;
+  height: 500px;
+  border: 1px solid grey;
+  position: relative;
+
+}
+#first{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background-color: red;
+  top: 250px;
+  left: 250px;
+}
+#second{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background-color: rgb(47, 43 ,43);
+  top: 200px;
+  left: 200px;
+}
+#third{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background-color: rgb(34, 163, 38);
+  top: 150px;
+  left: 150px;
+}
+#forth{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background-color: rgb(228, 235, 228);
+  top: 100px;
+  left: 100px;
+}
+#fifth{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background-color: rgb(60, 79, 60);
+  top: 50px;
+  left: 50px;
+}
+/* 
+position 
+1)static
+2)realative
+3)absolute
+4)fixed
+5)sticky
+ */
