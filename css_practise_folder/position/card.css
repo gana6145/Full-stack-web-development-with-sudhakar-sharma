@@ -1,47 +1,49 @@
+#main{
 
-#parent{
-  width: 80%;
   position: relative;
-  
-
 }
 #first{
-  height: 350px;
-  width: 150px;
+  height: 450px;
+  width: 300px;
+  border: 2px solid rgb(165, 107, 107);
   position: absolute;
-  background-color: red;
-  top: 250px;
-  left: 550px;
+  top: 200px;
+  left: 300px;
+  background-color: aqua;
 }
 #second{
-  height: 350px;
-  width: 150px;
+  height: 450px;
+  width: 300px;
+  border: 2px solid grey;
   position: absolute;
-  background-color: rgb(47, 43 ,43);
-  top: 200px;
-  left: 450px;
+  top: 230px;
+  left: 330px;
+  background-color: #857f7f;
 }
 #third{
-  height: 350px;
-  width: 150px;
+  height: 450px;
+  width: 300px;
+  border: 2px solid grey;
   position: absolute;
-  background-color: rgb(34, 163, 38);
-  top: 150px;
-  left: 350px;
+  top: 260px;
+  left: 360px;
+  background-color: #f0eaea;
 }
 #forth{
-  height: 350px;
-  width: 150px;
+  height: 450px;
+  width: 300px;
+  border: 2px solid grey;
   position: absolute;
-  background-color: rgb(228, 235, 228);
-  top: 100px;
-  left: 300px;
+  top: 290px;
+  left: 390px;
+  background-color: #722424;
 }
 #fifth{
-  height: 350px;
-  width: 150px;
+  height: 450px;
+  width: 300px;
+  border: 2px solid grey;
   position: absolute;
-  background-color: rgb(60, 79, 60);
-  top: 50px;
-  left: 250px;
+  top: 320px;
+  left: 420px;
+  background-color: #c88787;
 }
