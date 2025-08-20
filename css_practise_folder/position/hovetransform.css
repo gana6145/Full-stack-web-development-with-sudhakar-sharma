@@ -1,0 +1,18 @@
+body{
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  height: 300px;
+  width: 300px;
+  background-color: grey;
+  transition-duration: 10s;
+  border: 2px solid grey;
+}
+section:hover{
+  background-color:white;
+  transform: scale(1.5);
+}

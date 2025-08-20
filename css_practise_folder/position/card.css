@@ -10,6 +10,7 @@
   top: 200px;
   left: 300px;
   background-color: aqua;
+  
 }
 #second{
   height: 450px;
@@ -46,4 +47,24 @@
   top: 320px;
   left: 420px;
   background-color: #c88787;
+}
+#first:hover{
+  z-index: 1;
+  cursor: pointer;
+
+}
+#second:hover{
+  z-index: 1;
+  cursor: pointer;
+
+}
+#third:hover{
+  z-index: 1;
+  cursor: pointer;
+
+}
+#forth:hover{
+  z-index: 1;
+  cursor: pointer;
+
 }

@@ -1,0 +1,26 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+  height: 120px;
+  width: 100%;
+  border: 2px solid grey;
+  position:fixed;
+  background-color: rgb(242, 239, 236);
+}
+article{
+  height: 1200px;
+  width: 100%;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/040/890/255/small_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  
+  
+}
+p{
+  color: white;
+}
+

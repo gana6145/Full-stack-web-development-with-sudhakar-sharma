@@ -1,0 +1,18 @@
+header{
+  height: 20vh;
+  width: 100%;
+  border: 2px solid rgb(227, 214, 214);
+  position:fixed;
+  background-color: burlywood;
+}
+main{
+  height: 200vh;
+  width: 100%;
+  background-color: aliceblue;
+  
+}
+footer{
+  height: 20vh;
+  width: 100%;
+  background-color: bisque;
+}
