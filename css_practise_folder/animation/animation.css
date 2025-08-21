@@ -1,0 +1,33 @@
+body{
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+}
+div{
+  height:150px ;
+  width: 150px;
+  background-color: rgb(181, 174, 174);
+  border-radius: 50%;
+  animation-name:box ;
+ 
+
+  /* identifier for the animation properties  */
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+@keyframes box{
+  to{
+    transform: translate(0px,-500px);
+    background-color: white;
+    border: 1px solid black;
+    height:250px ;
+  width: 250px;
+
+  }
+}

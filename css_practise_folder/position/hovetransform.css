@@ -9,10 +9,17 @@ section{
   height: 300px;
   width: 300px;
   background-color: grey;
-  transition-duration: 10s;
+ transition-duration: 10s;   /* take time to change  */
   border: 2px solid grey;
 }
 section:hover{
   background-color:white;
   transform: scale(1.5);
 }
+/* 
+Tranform properties
+scale()
+translate()
+rotate()
+skew()
+ */

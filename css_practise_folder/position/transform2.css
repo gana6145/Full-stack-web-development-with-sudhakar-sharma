@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  height: 800px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  transition-duration: 3s;
+  transition-timing-function:ease-in ;
+  /*  */
+  border: 2px solid grey;
+}
+section:hover{
+   transform:scale(1.5);  /* to increase its size by 1.5 times*/      
+   transform: translate(100px);     /*to move it to right use in plus px like cordinate geometry */
+  background-color: white;
+  transform: rotate(-360deg);  /*  to ratate it use transform with roatate use the degree 360 for one rotation  */
+  border: 2px solid black;
+
+ 
+}
