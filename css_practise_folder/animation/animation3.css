@@ -1,0 +1,30 @@
+body{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#main{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: box;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes box {
+  to{
+    
+    transform: rotate(360deg);
+    border-radius: 50%;
+    background: #f7f4f4;
+    border: 2px solid black;
+
+    
+  }
+  
+}

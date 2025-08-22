@@ -1,0 +1,88 @@
+body{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#main{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: box;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes box {
+  20%{
+    
+    transform: rotate(90deg);
+    border-radius: 10%;
+    background: #421818;
+    border: 2px solid black;
+
+    
+  }
+  40%{
+    transform: rotate(180deg);
+    border-radius: 20%;
+    transform: scale(1.5);
+    background-color: aqua;
+    border: 2px solid black;
+  }
+  60%{
+     transform: rotate(270deg);
+     border-radius: 30%;
+    transform: scale(2);
+    background-color: rgb(98, 104, 104);
+    border: 2px solid black;
+    
+  }
+    80%{
+    transform: rotate(360deg);
+    border-radius: 40%;
+    transform: scale(2.5);
+    background-color: rgb(98, 104, 104);
+    border: 2px solid rgb(203, 29, 110);
+    
+  }
+  100%{
+    transform: rotate(450deg);
+    border-radius: 50%;
+    transform: scale(2.5);
+    background-color: rgb(98, 104, 104);
+    border: 2px solid rgb(203, 29, 110);
+  }
+    /* 80%{
+    transform: rotate(540deg);
+    border-radius: 40%;
+    transform: scale(2.5);
+    background-color: rgb(48, 217, 217);
+    border: 2px solid rgb(203, 29, 110);
+  }
+  60%{
+    transform: rotate(630deg);
+    border-radius: 30%;
+    transform: scale(2.5);
+    background-color: rgb(48, 217, 217);
+    border: 2px solid rgb(203, 29, 110);
+  }
+  40%{
+    transform: rotate(630deg);
+    border-radius: 20%;
+    transform: scale(2.5);
+    background-color: rgb(48, 217, 217);
+    border: 2px solid rgb(203, 29, 110);
+  }
+  20%{
+    transform: rotate(720deg);
+    border-radius: 10%;
+    transform: scale(2.5);
+    background-color: rgb(247, 250, 250);
+    border: 2px solid rgb(203, 29, 110);
+  }
+   */
+}
