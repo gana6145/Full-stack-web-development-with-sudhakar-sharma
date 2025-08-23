@@ -1,0 +1,16 @@
+A{
+  font-size: 50px;
+}
+
+
+a:link{
+  color: rgb(189, 36, 36);
+}
+
+
+a:visited{
+  color: green;
+}
+input:focus{
+  background-color: aqua;
+}

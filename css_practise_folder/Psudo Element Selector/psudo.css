@@ -1,0 +1,21 @@
+h1::first-letter{
+ color: green;
+ font-size: 85px;
+}
+h1{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+p::first-line{
+  background-color: aqua;
+  font-size: 35px;
+}
+input{
+  height: 35px;
+  width: 90px;
+  padding: 5px;
+}
+input::placeholder{
+  color: red;
+}

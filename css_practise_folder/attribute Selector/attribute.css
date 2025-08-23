@@ -1,0 +1,9 @@
+input[type="text"]{
+  border: 2px solid red;
+}
+a[target="_blank"]{
+  color: green;
+}
+ol::marker{
+  color: red;
+}
