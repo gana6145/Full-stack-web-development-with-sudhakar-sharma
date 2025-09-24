@@ -1,17 +1,23 @@
-console.log("hello ganesh to javaSript");
-let a = 10;
-let b = 20;
-// console.log("sum of a and b will be ", a + b);
-// console.log(`sum of youe ${a} and ${b} will be ${a+b}`);
 
-// let penPrice;
-// penPrice=prompt('Enter the pen price');
-// console.log(`penprice is the ${penPrice}`);
 
-let c=10;
-let d=2;
 
-a+=d;
-console.log(a);
 
-// console.log(c**d);//10*10
+let display = document.getElementsByTagName('h1')[0];
+
+function Submit() {
+ 
+  let val = document.getElementById('status').value;
+ if (val === "red") {
+    display.innerHTML = "Stop! Signal is RED";
+    display.style.color = "red";
+  } else if (val === "green") {
+    display.innerHTML = "Go! Signal is GREEN";
+    display.style.color = "green";
+  } else if (val === "yellow") {
+    display.innerHTML = "Take precaution! Signal is YELLOW";
+    display.style.color = "orange";
+  } else {
+    display.innerHTML = "Invalid signal!";
+    display.style.color = "black";
+  }
+}
